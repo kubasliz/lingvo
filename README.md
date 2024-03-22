@@ -1,36 +1,38 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+# [Lingvo](https://lingvo-kappa.vercel.app)
 
-First, run the development server:
+Fullstack Duolingo Clone App
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+[![Lingvo](https://github.com/kubasliz/lingvo/assets/52798215/b50a70a2-fe90-4e5c-82d0-50e90d090080)](https://lingvo-kappa.vercel.app)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Testing interactively Lingvo Pro
+When testing interactively Lingvo Pro, use a card number, such as **<ins>4242 4242 4242 4242</ins>** \
+Enter the card number in payment form.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+ - [x] Use a valid future date, such as 12/34.
+ - [x] any three-digit CVC
+ - [x] Use any value you like for other form fields.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Key Features:
+- 🗣 AI Voices
+- 🔊 Sound effects
+- ❤️ Hearts system
+- 🌟 Points / XP system
+- 🏆 Leaderboard
+- 🗺 Quests milestones
+- 🛍 Shop system to exchange points with hearts
+- 💳 Lingvo Pro for unlimited hearts using Stripe
+- 📊 Admin dashboard
 
-## Learn More
+## Tech Stack
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- **Framework:** [Next.js](https://nextjs.org)
+- **Styling:** [Tailwind CSS](https://tailwindcss.com)
+- **UI Components:** [shadcn/ui](https://ui.shadcn.com)
+- **Icons:** [Lucide](https://lucide.dev)
+- **Authentication:** [Clerk](https://clerk.com)
+- **Payments infrastructure:** [Stripe](https://stripe.com)
+- **Database:** [Neon](https://neon.tech)
+- **ORM:** [DrizzleORM](https://orm.drizzle.team)
+- **AI Voices:** [Elevenlabs AI](https://elevenlabs.io)
+- **Admin dashboard:** [React Admin](https://marmelab.com/react-admin/)
